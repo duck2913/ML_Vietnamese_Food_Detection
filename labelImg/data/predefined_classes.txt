@@ -1,5 +1,15 @@
-banh mi
-banh xeo
-pho
-bun dau mam tom
-com tam
+dog
+person
+cat
+tv
+car
+meatballs
+marinara sauce
+tomato soup
+chicken noodle soup
+french onion soup
+chicken breast
+ribs
+pulled pork
+hamburger
+cavity
