@@ -9,3 +9,4 @@ __pycache__/*
 webdriver/*.zip
 .ipynb_checkpoints/juypter_main-checkpoint.ipynb
 webdriver/chromedriver.exe
+.DS_Store
