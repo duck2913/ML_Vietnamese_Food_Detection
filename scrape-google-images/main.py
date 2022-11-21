@@ -29,7 +29,7 @@ if __name__ == "__main__":
     search_keys = list(set(["cơm tấm", "bánh xèo", "bún đậu mắm tôm", "bánh mì"]))
 
     #Parameters
-    number_of_images = 100                # Desired number of images
+    number_of_images = 200                # Desired number of images
     headless = True                     # True = No Chrome GUI
     min_resolution = (0, 0)             # Minimum desired image resolution
     max_resolution = (9999, 9999)       # Maximum desired image resolution
