@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Design by foolishdeveloper.com -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Food detection</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="result">&nbsp;</div>
+		<div class="form-input">
+			<div class="preview">
+				<img id="file-ip-1-preview" />
+			</div>
+			<label for="file-ip-1">Upload Image</label>
+			<input type="file" id="file-ip-1" capture="user" accept="image/*" onchange="showPreview(event);" />
+		</div>
+		<div id="webcam-container"></div>
+		<div id="label-container"></div>
+		<button>Detect</button>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+	<script src="./script.js"></script>
+</html>
