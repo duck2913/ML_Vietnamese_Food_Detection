@@ -3,11 +3,9 @@ const imgEl = document.querySelector("#file-ip-1-preview")
 const resultEl = document.querySelector(".result")
 console.log("🚀 ~ file: script.js ~ line 4 ~ resultEl", resultEl)
 
-const myUrl = "https://teachablemachine.withgoogle.com/models/6LrJvv3Pp/"
-
 async function init() {
-	const modelURL = myUrl + "model.json"
-	const metadataURL = myUrl + "metadata.json"
+	const modelURL = "./model.json"
+	const metadataURL = myUrl + "./metadata.json"
 	model = await tmImage.load(modelURL, metadataURL)
 }
 
