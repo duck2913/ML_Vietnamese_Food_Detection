@@ -23,7 +23,7 @@ if __name__ == "__main__":
     search_site = website_list[0] #change index number here to select the website you are using
 
     #Add new search key into array ["cat","t-shirt","apple","orange","pear","fish"]
-    search_keys= ['chinese cargo boat']
+    search_keys= ['banh mi', 'banh xeo', 'pho', 'bun dau mam tom', 'com tam']
 
     #Parameters
     number_of_images = 1000
