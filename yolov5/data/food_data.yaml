@@ -1,0 +1,5 @@
+path: food_data
+train: train/images
+val: val/images
+nc: 5
+names: [banh mi, banh xeo, pho, bun dau mam tom, com tam]
