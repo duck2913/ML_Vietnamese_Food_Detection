@@ -1,5 +1,5 @@
 # ML_Vietnamese_Food_Detection
-A project to apply YOLOv5 to detect Vietnamese Foods (bánh mì, bánh xèo, phở, bún đậu mắm tôm, cơm tấm). 
+A project to apply YOLOv5 to detect Vietnamese foods (bánh mì, bánh xèo, phở, bún đậu mắm tôm, cơm tấm). 
 
 This project aims to help international students at Vietnamese-German University get familiar with the daily foods in Vietnam.
 
